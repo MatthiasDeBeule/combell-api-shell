@@ -1,0 +1,24 @@
+{
+    "name": "debeule/combell-api-shell",
+    "description": "aaaaaaa",
+    "type": "library",
+    "require": {
+        "combell/combell-api": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Matthias De Beule",
+        "email": "debeulematthias@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+
+    "autoload": 
+    {
+        "psr-4": 
+        {
+          "CombellApi\\": "src/CombellApi/"
+        }
+    }
+}
